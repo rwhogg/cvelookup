@@ -1,0 +1,20 @@
+plugins
+{
+    id "groovy"
+    id "application"
+}
+
+repositories
+{
+    jcenter()
+}
+
+dependencies
+{
+    implementation "org.codehaus.groovy:groovy-all:2.5.10"
+}
+
+application
+{
+    mainClassName = "cvelookup.App"
+}
