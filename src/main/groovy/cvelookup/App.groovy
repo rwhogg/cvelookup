@@ -10,7 +10,7 @@ class App
         cli.help("Print this message")
         def options = cli.parse(cliArgs)
         def args = options.arguments() 
-        if(args == null || args.length == 0 || args[0] == null)
+        if(args == null || args[0] == null)
         {
             cli.usage()
             System.exit(0)
