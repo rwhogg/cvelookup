@@ -35,9 +35,5 @@ class App
         {
             println("\t" + reference["url"])
         }
-
-        // Temp debug
-        println()
-        println(cveData)
     }
 }
